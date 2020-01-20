@@ -1,0 +1,12 @@
+.schedule-block {
+    background-color: green;
+    height: 65px;
+}
+
+body {
+    text-align: center;
+}
+
+.hr-block {
+    margin: auto;
+}
