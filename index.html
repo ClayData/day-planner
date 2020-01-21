@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/37e1acf7be.js" crossorigin="anonymous"></script>
-    <script src="node_modules/moment/moment.js"></script>
+    <script src="assets/moments.min.js"></script>
     <script src="scripts.js"></script>
     <title>Day Planner</title>
 </head>
@@ -22,7 +22,7 @@
         </div>
         <div class ="row">
             <div class="col">
-                <h3 id="current-date"></h3>
+                <h3 id="current-date">Date</h3>
             </div>
         </div>
         <div class="row">
@@ -71,5 +71,13 @@
             <button class="lock"><i class ="fas fa-lock"></i></button>        
         </div>
     </div>
+
+    <script src="assets/moments.min.js"></script>
+    <script>
+        m = moment().format('LL');
+        console.log(m)
+        $("#current-date").text(m);
+   </script>
+    
 </body>
 </html>

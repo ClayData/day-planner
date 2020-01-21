@@ -1,5 +1,3 @@
-
-
 $(document).ready(function() {
     $("#block-1").val(localStorage.getItem("text1"));
     $(".lock").click(function(){
@@ -55,6 +53,6 @@ $(document).ready(function() {
         localStorage.setItem("text9", text9);
     })
 
-
+   
 
 })
