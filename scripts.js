@@ -53,6 +53,9 @@ $(document).ready(function() {
         localStorage.setItem("text9", text9);
     })
 
-   
+   $("#clear-btn").click(function() {
+       localStorage.clear();
+       location.reload(true);
+   })
 
 })
