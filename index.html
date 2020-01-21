@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/37e1acf7be.js" crossorigin="anonymous"></script>
+    <script src="node_modules/moment/moment.js"></script>
+    <script src="scripts.js"></script>
     <title>Day Planner</title>
 </head>
 <body>
@@ -20,52 +22,52 @@
         </div>
         <div class ="row">
             <div class="col">
-                <h3>Date</h3>
+                <h3 id="current-date"></h3>
             </div>
         </div>
         <div class="row">
             <div class="hr-block">9 AM  </div>
-            <input type="text" class="schedule-block" size="125">
+            <input type="text" class="schedule-block" size="125" id="block-1">
             <button class="lock"><i class ="fas fa-lock"></i></button>        
         </div>
         <div class="row">
             <div class="hr-block">10 AM  </div>
-            <input type="text" class="schedule-block" size="125">
+            <input type="text" class="schedule-block" size="125" id="block-2">
             <button class="lock"><i class ="fas fa-lock"></i></button>        
         </div>
         <div class="row">
             <div class="hr-block">11 AM</div>
-            <input type="text" class="schedule-block" size="125">
+            <input type="text" class="schedule-block" size="125" id="block-3">
             <button class="lock"><i class ="fas fa-lock"></i></button>        
         </div>
         <div class="row">
             <div class="hr-block">12 PM</div>
-            <input type="text" class="schedule-block" size="125">
+            <input type="text" class="schedule-block" size="125" id="block-4">
             <button class="lock"><i class ="fas fa-lock"></i></button>        
         </div>
         <div class="row">
             <div class="hr-block">1 PM</div>
-            <input type="text" class="schedule-block" size="125">
+            <input type="text" class="schedule-block" size="125" id="block-5">
             <button class="lock"><i class ="fas fa-lock"></i></button>        
         </div>
         <div class="row">
             <div class="hr-block">2 PM</div>
-            <input type="text" class="schedule-block" size="125">
+            <input type="text" class="schedule-block" size="125" id="block-6">
             <button class="lock"><i class ="fas fa-lock"></i></button>        
         </div>
         <div class="row">
             <div class="hr-block">3 PM</div>
-            <input type="text" class="schedule-block" size="125">
+            <input type="text" class="schedule-block" size="125" id="block-7">
             <button class="lock"><i class ="fas fa-lock"></i></button>        
         </div>
         <div class="row">
             <div class="hr-block">4 PM</div>
-            <input type="text" class="schedule-block" size="125">
+            <input type="text" class="schedule-block" size="125" id="block-8">
             <button class="lock"><i class ="fas fa-lock"></i></button>        
         </div>
         <div class="row">
             <div class="hr-block">5 PM</div>
-            <input type="text" class="schedule-block" size="125">
+            <input type="text" class="schedule-block" size="125" id="block-9">
             <button class="lock"><i class ="fas fa-lock"></i></button>        
         </div>
     </div>
